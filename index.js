@@ -26,7 +26,7 @@ const corsVar={
   }
 
 app.use(
-  cors()
+  cors(corsVar)
 );
 app.use(express.json());
 
